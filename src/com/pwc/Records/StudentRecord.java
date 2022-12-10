@@ -117,6 +117,8 @@ public class StudentRecord {
                         System.out.println("Please enter the Updated stream \n");
                         stream = input.next();
                         break;
+                    case 7:
+                        System.out.println("Exiting the update menu");
                     default:
                         System.out.println("Invalid Input Please try again !!! \n");
 
@@ -143,6 +145,7 @@ public class StudentRecord {
         System.out.println("4. for grades");
         System.out.println("5. for Contact Number");
         System.out.println("6. for stream ");
+        System.out.println("7. for Exit");
     }
 
     public void display() {
